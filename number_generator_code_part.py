@@ -1,5 +1,9 @@
 # number generator & identifier
-# writer: Shobaku
+# This Python file is the core part of number generating
+# # When generating a new mixed number with member number, please run 'number_mix_generate' and then 'number_member_generate'
+# # when generating a new organization number, please run 'number_organization_generate'
+# # when generating a new manipulation number, please run 'number_manipulation_generate'
+
 
 from random import uniform
 from random import seed
@@ -57,8 +61,7 @@ def number_mix_generate(in_list_name, in_initial_list):
                                       init_char_0+init_char_1.lower()+init_char_2.lower(), 
                                       init_char_0+init_char_1.lower()+init_char_2, 
                                       init_char_0+init_char_1+init_char_2.lower(), 
-                                      init_char_0+init_char_1+init_char_2)
-                    
+                                      init_char_0+init_char_1+init_char_2)                    
                 else:
                     temp_bool_0 = False
             else:
